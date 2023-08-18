@@ -1,0 +1,60 @@
+{
+  "id": "b93bc424-bc15-4104-841b-f3db2e1ca8cc",
+  "version": "2.0",
+  "name": "PROG8440_VV_Final",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "175cd191-29d5-4e0f-bc26-1d58478d19a0",
+    "name": "TestVidhyaVenugopal",
+    "commands": [{
+      "id": "ac0affc5-542f-4715-85b6-b8e9f827d1ff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2a6f3e8-5947-41f8-a713-6169c9fe44a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bd00cd3-e2aa-4860-9e2f-d4fe3ee99c20",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "movies in Winnipeg"
+    }, {
+      "id": "2a540b8e-fc9c-43d5-bf84-03b7520aeb63",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'movies in winnipeg')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e12b02c9-a9e1-4f29-9669-e5b4cb464fe7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["175cd191-29d5-4e0f-bc26-1d58478d19a0"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
